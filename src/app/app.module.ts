@@ -8,6 +8,8 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { NavComponent } from './nav/nav.component';
 import { ErrorComponent } from './error/error.component';
+import { FindweatherComponent } from './findweather/findweather.component';
+import { FavoritesComponent } from './favorites/favorites.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ErrorComponent } from './error/error.component';
     RegisterComponent,
     LoginComponent,
     NavComponent,
-    ErrorComponent
+    ErrorComponent,
+    FindweatherComponent,
+    FavoritesComponent
   ],
   imports: [
     BrowserModule,
