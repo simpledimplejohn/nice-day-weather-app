@@ -15,6 +15,8 @@ import { NavComponent } from './nav/nav.component';
 import { ErrorComponent } from './error/error.component';
 import { FindweatherComponent } from './findweather/findweather.component';
 import { FavoritesComponent } from './favorites/favorites.component';
+import { TodayComponent } from './today/today.component';
+import { FutureComponent } from './future/future.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { FavoritesComponent } from './favorites/favorites.component';
     NavComponent,
     ErrorComponent,
     FindweatherComponent,
-    FavoritesComponent
+    FavoritesComponent,
+    TodayComponent,
+    FutureComponent
   ],
   imports: [
     BrowserModule,
