@@ -6,15 +6,14 @@ import { map , switchMap } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
-export class ForcastService {
+export class ForecastService {
 
   constructor(private http : HttpClient) { }
 
-  getWeatherForcast(){
+  getWeatherForecast(){
     return new Observable((observer)=>{
       navigator.geolocation.getCurrentPosition((position)=>{
-        observer.next(position)
-        },
+        observer.next(position)},
         (error)=>{
           observer.next(error)
         }
