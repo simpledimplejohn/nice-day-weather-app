@@ -17,6 +17,7 @@ import { FindweatherComponent } from './findweather/findweather.component';
 import { FavoritesComponent } from './favorites/favorites.component';
 import { TodayComponent } from './today/today.component';
 import { FutureComponent } from './future/future.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FutureComponent } from './future/future.component';
     FindweatherComponent,
     FavoritesComponent,
     TodayComponent,
-    FutureComponent
+    FutureComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
